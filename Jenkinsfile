@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout stage') {
       steps {
-        sh 'rm -rf Tomcat_role'
+        sh 'rm -rf Tomcat_roles'
         sh 'git clone https://github.com/yatheesh2328/Tomcat_roles.git'
       }
     }
